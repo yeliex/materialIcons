@@ -1,0 +1,21 @@
+h1,h2,h3,h4,h5,p,body {
+    font-family: 'Roboto', sans-serif;
+}
+.yeliex .ye-header {
+    height: 256px;
+    width: 100%;
+    background: #03a9f4;
+}
+.ye-header h1.title {
+    color: #ffffff;
+    font-size: 56px;
+    font-weight: 400;
+    padding-top: 115px;
+    line-height: 1.5;
+}
+.ye-header.fixed {
+    height: auto;
+}
+.ye-header.fixed .container:first-child{
+    display: none;
+}
